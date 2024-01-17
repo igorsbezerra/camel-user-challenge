@@ -1,0 +1,11 @@
+server:
+  port: ${SERVER_PORT:9090}
+
+camel:
+  component:
+    servlet:
+      mapping:
+        contextPath: /*
+
+users:
+  url: ${USERS_URL:http://localhost:8080}
